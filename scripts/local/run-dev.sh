@@ -32,7 +32,7 @@ npm install
 npm run dev > /dev/null 2>&1 &
 npm_pid=$! 
 printf '\n🤖 Starting RAG server...\n'
-cd ../server
+cd ../../server
 poetry install
 export LLM_TYPE=gpt4all
 export QDRANT_URL=http://localhost
